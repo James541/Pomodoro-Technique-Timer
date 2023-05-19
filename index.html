@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <h1>🍅Pomodoro Timer🍅</h1>
+
+  <div class="layout">
+    <section id="break-label">Break Length</section>
+    <div class="arrows">
+        <section id="break-increment" onclick="breakLengthUp()">&#x2191;</section>
+        <section id="break-length">5</section>
+        <section id="break-decrement" onclick="breakLengthDown()">&#x2193;</section>
+    </div>
+  </div>
+
+  <div class="layout">
+    <section id="session-label">Session Length</section>
+    <div class="arrows">
+        <section id="session-increment" onclick="sessionLengthUp()">&#x2191;</section>
+        <section id="session-length">5</section>
+        <section id="session-decrement" onclick="sessionLengthDown()">&#x2193;</section>
+    </div>
+  </div>
+  
+  <div class="timer">
+    <div class="timer-elements">
+        <section id="timer-label">Session</section>
+        <section id="time-left">25:00</section>
+    </div>
+  </div>
+
+  <button id="start-stop" onclick="startTimer()">Start/Stop</button>
+  <button id="reset" onclick="reset()">Reset</button>
+
+  <audio id="beep" src=""></audio>
+
+</body>
+</html>

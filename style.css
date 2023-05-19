@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.layout {
+    display: inline-block;
+    margin: 15px;
+}
+
+.arrows {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.arrows section {
+    display: inline-block;
+    margin-top: -8px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.timer-elements {
+    font-size: 34px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
