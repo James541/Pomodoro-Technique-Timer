@@ -1,11 +1,22 @@
 body {
     text-align: center;
     margin: 0;
+    background-image: url(Tomato.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin-top: 170px;
+    color: white;
 }
 
+h1 {
+    color: black;
+    margin-top: 240px;
+    margin-bottom: -7px;
+}
 .layout {
     display: inline-block;
-    margin: 15px;
+    margin: 25px;
 }
 
 .arrows {
@@ -25,8 +36,7 @@ body {
 }
 
 .timer-elements {
-    font-size: 34px;
+    font-size: 44px;
     margin-bottom: 20px;
-    border: 1px solid black;
     padding: 20px;
 }
