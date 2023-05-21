@@ -81,15 +81,15 @@ button {
       background-size: cover;
     }
     
+
     .layout {
-      
-    }
-    .arrows section {
-        font-size: 18px;
-        margin: 0 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
       }
     .arrows {
-        display: inline-block;
+       margin-left: 10px;
         color: white;
       }
     
