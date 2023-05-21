@@ -84,10 +84,12 @@ button {
     .layout {
       
     }
+    .arrows section {
+        font-size: 18px;
+        margin: 0 10px;
+      }
     .arrows {
         display: inline-block;
-        margin-top: 10px;
-        margin-left: 20px;
         color: white;
       }
     
