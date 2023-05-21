@@ -81,27 +81,34 @@ button {
       background-size: cover;
     }
     
-
+  h1{
+    margin-top: -100px;
     
-    .arrows {
-        display: inline-block;
-        color: white;
-        font-size: 12px;
-      }
-    
+  }
+    .arrows{
+        max-width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -100px;
+    }
+ 
     .timer {
-      margin-top: 150px; /* Adjust margin-top for the timer */
+      margin-top: 10px; /* Adjust margin-top for the timer */
     }
     
     .timer-elements {
-      font-size: 60px; /* Adjust font-size for the timer elements */
-      margin-bottom: 30px; /* Adjust margin-bottom for the timer elements */
+      font-size: 40px; /* Adjust font-size for the timer elements */
+      /* Adjust margin-bottom for the timer elements */
     }
     
     button {
-        width: 120px;
-        margin-top: 80px;
-        font-size: 12px;
+    
+        width: 100px;
+        height: auto;
+        padding: 7px;
+        margin-top: 190px;
+        font-size: 10px;
     
     /* Apply similar adjustments for other elements as needed */
   }
