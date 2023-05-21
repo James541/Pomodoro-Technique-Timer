@@ -82,8 +82,14 @@ button {
     }
     
     .layout {
-      margin: 15px; /* Adjust margin for the layout */
+      
     }
+    .arrows {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 20px;
+        color: white;
+      }
     
     .timer {
       margin-top: 150px; /* Adjust margin-top for the timer */
