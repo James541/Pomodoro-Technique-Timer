@@ -3,6 +3,7 @@ let timerLabelElement = document.getElementById("timer-label");
 let sessionLengthElement = document.getElementById("session-length");
 let timeLeft = document.getElementById("time-left");
 let audioElement = document.getElementById("beep");
+audioElement.volume = 0.05
 let breakLength = 5;
 let sessionLength = 25;
 let time = (sessionLength*60);
@@ -96,6 +97,7 @@ function timer() {
         const minutes = Math.floor(time/60).toString().padStart(2,'0')
         const seconds = (time % 60).toString().padStart(2, '0')
         flag = "break"
+        
         audioElement.play()
     }
 }
