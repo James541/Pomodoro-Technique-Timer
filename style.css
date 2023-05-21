@@ -75,3 +75,28 @@ button {
     font-size: 28px;
     margin-bottom: -30px;
 }
+
+@media (max-width: 600px) {
+    body {
+      margin: 20px; /* Adjust margin for the body */
+    }
+    
+    .layout {
+      margin: 15px; /* Adjust margin for the layout */
+    }
+    
+    .timer {
+      margin-top: 150px; /* Adjust margin-top for the timer */
+    }
+    
+    .timer-elements {
+      font-size: 60px; /* Adjust font-size for the timer elements */
+      margin-bottom: 30px; /* Adjust margin-bottom for the timer elements */
+    }
+    
+    button {
+      margin-top: 80px; /* Adjust margin-top for the buttons */
+    }
+    
+    /* Apply similar adjustments for other elements as needed */
+  }
