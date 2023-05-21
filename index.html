@@ -6,27 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🍅🍅Pomodoro Timer🍅🍅</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 
 </head>
 <body>
+<div class="wrapper">
 
   <h1>Pomodoro Timer</h1>
 
   <div class="layout">
     <section id="break-label">Break Length</section>
     <div class="arrows">
-        <section id="break-increment" onclick="breakLengthUp()">&#x2191;</section>
+        <section id="break-increment" onclick="breakLengthUp()"><i class="fa-solid fa-arrow-up fa-lg"></i></section>
         <section id="break-length">5</section>
-        <section id="break-decrement" onclick="breakLengthDown()">&#x2193;</section>
+        <section id="break-decrement" onclick="breakLengthDown()"><i class="fa-solid fa-arrow-down fa-lg"></i></section>
     </div>
   </div>
 
   <div class="layout">
     <section id="session-label">Session Length</section>
     <div class="arrows">
-        <section id="session-increment" onclick="sessionLengthUp()">&#x2191;</section>
+        <section id="session-increment" onclick="sessionLengthUp()"><i class="fa-solid fa-arrow-up fa-lg"></i></section>
         <section id="session-length">25</section>
-        <section id="session-decrement" onclick="sessionLengthDown()">&#x2193;</section>
+        <section id="session-decrement" onclick="sessionLengthDown()"><i class="fa-solid fa-arrow-down fa-lg"></i></section>
     </div>
   </div>
   
@@ -43,6 +48,6 @@
   <audio id="beep" src="https://www.orangefreesounds.com/wp-content/uploads/2014/11/Gong-sound.mp3"></audio>
 
   <script src="script.js"></script>
-
+</div>
 </body>
 </html>

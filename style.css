@@ -1,22 +1,37 @@
 body {
     text-align: center;
-    margin: 0;
+    margin: 120;
     background-image: url(Tomato.jpg) ;
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center;
-    margin-top: 170px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    margin-top: 0px;
     color: white;
+    background-color: rgb(241, 218, 214);
+    overflow: hidden;
+    
 }
+
+.wrapper {
+    position: relative;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+
 
 h1 {
     color: black;
-    margin-top: 240px;
-    margin-bottom: -7px;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    font-size: 40px;
 }
 .layout {
     display: inline-block;
-    margin: 25px;
+    margin: 45px;
+    color: black;
 }
 
 .arrows {
@@ -27,16 +42,36 @@ h1 {
 .arrows section {
     display: inline-block;
     margin-top: -8px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
 }
 
 .timer {
     display: flex;
     justify-content: center;
+    margin-top: 230px;
+    font-family: 'Orbitron', sans-serif;
+    
 
 }
 
+
 .timer-elements {
-    font-size: 44px;
-    margin-bottom: 20px;
+    font-size: 90px;
+    margin-bottom: 50px;
     padding: 20px;
+}
+
+button {
+    margin-top: 120px;
+    width: 150px;
+    height: 75px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    margin-bottom: -30px;
 }
