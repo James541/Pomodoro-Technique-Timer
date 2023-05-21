@@ -78,7 +78,7 @@ button {
 
 @media (max-width: 600px) {
     body {
-      margin: 20px; /* Adjust margin for the body */
+      background-size: cover;
     }
     
     .layout {
@@ -95,7 +95,8 @@ button {
     }
     
     button {
-      margin-top: 80px; /* Adjust margin-top for the buttons */
+        width: 120px;
+        margin-top: 80px; /* Adjust margin-top for the buttons */
     }
     
     /* Apply similar adjustments for other elements as needed */
