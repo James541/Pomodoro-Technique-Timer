@@ -96,8 +96,9 @@ button {
     
     button {
         width: 120px;
-        margin-top: 80px; /* Adjust margin-top for the buttons */
-    }
+        margin-top: 80px;
+        font-size: 12px;
     
     /* Apply similar adjustments for other elements as needed */
   }
+}
