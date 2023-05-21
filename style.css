@@ -82,15 +82,11 @@ button {
     }
     
 
-    .layout {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-      }
+    
     .arrows {
-       margin-left: 10px;
+        display: inline-block;
         color: white;
+        font-size: 12px;
       }
     
     .timer {
