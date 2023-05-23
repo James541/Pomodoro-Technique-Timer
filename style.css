@@ -3,7 +3,7 @@ body {
     margin: 120;
     background-image: url(Tomato.jpg) ;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 700px;
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: darken;
@@ -59,57 +59,74 @@ h1 {
 
 
 .timer-elements {
-    font-size: 90px;
+    font-size: 80px;
     margin-bottom: 50px;
     padding: 20px;
 }
 
 button {
     margin-top: 120px;
-    width: 150px;
-    height: 75px;
-    margin-right: 50px;
+    width: 170px;
+    height: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 15px;
     background-color: red;
     color: white;
     font-size: 28px;
-    margin-bottom: -30px;
+   
 }
 
 @media (max-width: 600px) {
     body {
-      background-size: cover;
+      background-size: 400px;
     }
-    
-  h1{
-    margin-top: -100px;
-    
-  }
+
+    h1{
+      font-size: 35px;
+    }
+
+    .layout{
+      margin: 40px;
+       display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
     .arrows{
-        max-width: 100px;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-bottom: -100px;
+        margin-bottom: -50px;
+
     }
- 
+
+    #session-increment, #session-decrement, #break-increment, #break-decrement {
+      font-size: 20px;
+    }
+    
+    #break-length, #session-length{
+      font-size: 20px;
+    }
     .timer {
-      margin-top: 10px; /* Adjust margin-top for the timer */
+      margin-top: 30px; 
     }
     
     .timer-elements {
-      font-size: 40px; /* Adjust font-size for the timer elements */
-      /* Adjust margin-bottom for the timer elements */
+      margin-top: 130px;
+      font-size: 40px;
     }
     
     button {
     
-        width: 100px;
-        height: auto;
-        padding: 7px;
-        margin-top: 190px;
-        font-size: 10px;
+        width: 180px;
+        height: 50px;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 20px;
     
-    /* Apply similar adjustments for other elements as needed */
+    
   }
 }
