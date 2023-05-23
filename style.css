@@ -16,7 +16,7 @@ body {
 
 .wrapper {
     position: relative;
-    margin-top: 50vh;
+    margin-top: 30vh;
     transform: translateY(-50%);
     text-align: center;
   }
@@ -87,7 +87,7 @@ button {
     }
 
     .layout{
-      margin: 40px;
+     
        display: flex;
       flex-direction: column;
       align-items: center;
@@ -99,12 +99,13 @@ button {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-bottom: -50px;
+        margin-bottom: -40px;
 
     }
 
     #session-increment, #session-decrement, #break-increment, #break-decrement {
-      font-size: 20px;
+      font-size: 22px;
+      
     }
     
     #break-length, #session-length{
