@@ -3,6 +3,7 @@ let timerLabelElement = document.getElementById("timer-label");
 let sessionLengthElement = document.getElementById("session-length");
 let timeLeft = document.getElementById("time-left");
 let audioElement = document.getElementById("beep");
+let startStopElement = document.getElementById("start-stop")
 audioElement.volume = 0.5
 let breakLength = 5;
 let sessionLength = 25;
@@ -50,6 +51,7 @@ function sessionLengthDown() {
 
 function reset() {
     timerLabelElement.textContent = "Session"
+    startStopElement.textContent = "Start"
     sessionLengthElement.textContent = 25
     breakLengthElement.textContent = 5
     time = (sessionLength*60)
@@ -69,9 +71,11 @@ function reset() {
 function startTimer() {
     if (buttonClicked == false) {
        buttonClicked = true
+       startStopElement.textContent = "Stop"
        intervalId = setInterval(timer, 1000)
     } else {
         buttonClicked = false;
+        startStopElement.textContent = "Start"
        clearInterval(intervalId)
     }
 }
