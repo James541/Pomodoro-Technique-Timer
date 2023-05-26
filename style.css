@@ -156,4 +156,9 @@ button {
         font-size: 20px;
         cursor: pointer;
 }
+
+#session-increment, #session-decrement, #break-increment, #break-decrement {
+  font-size: 20px;
+  margin: 15px;
+}
 }
