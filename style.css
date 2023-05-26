@@ -143,7 +143,7 @@ button {
 
 .timer-elements {
   font-size: 40px;
-  margin-top: -150px
+  margin-top: -170px
 }
 
 button {
@@ -156,8 +156,5 @@ button {
         cursor: pointer;
 }
 
-#session-increment, #session-decrement, #break-increment, #break-decrement {
-  font-size: 20px;
-  margin: 15px;
-}
+
 }
