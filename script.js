@@ -52,6 +52,7 @@ function sessionLengthDown() {
 function reset() {
     timerLabelElement.textContent = "Session"
     startStopElement.textContent = "Start"
+    startStopElement.style.backgroundColor = "rgb(9, 163, 99)";
     sessionLengthElement.textContent = 25
     breakLengthElement.textContent = 5
     time = (sessionLength*60)
@@ -72,10 +73,12 @@ function startTimer() {
     if (buttonClicked == false) {
        buttonClicked = true
        startStopElement.textContent = "Stop"
+       startStopElement.style.backgroundColor = "red";
        intervalId = setInterval(timer, 1000)
     } else {
         buttonClicked = false;
         startStopElement.textContent = "Start"
+        startStopElement.style.backgroundColor = "rgb(9, 163, 99)";
        clearInterval(intervalId)
     }
 }

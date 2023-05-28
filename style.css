@@ -76,6 +76,10 @@ button {
    
 }
 
+#start-stop{
+  background-color: rgb(9, 163, 99);
+}
+
 @media (max-width: 600px){
     body {
       background-size: 400px;
